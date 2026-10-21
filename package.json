@@ -1,0 +1,16 @@
+{
+  "name": "shivams-the-real-brand",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Original browser gaming portal starter with account API and non-cash points",
+  "scripts": {"start":"node server/index.js","dev":"node --watch server/index.js"},
+  "dependencies": {
+    "bcryptjs":"^2.4.3",
+    "better-sqlite3":"^11.7.0",
+    "dotenv":"^16.4.7",
+    "express":"^4.21.2",
+    "express-rate-limit":"^7.5.0",
+    "helmet":"^8.0.0",
+    "jsonwebtoken":"^9.0.2"
+  }
+}
